@@ -25,7 +25,7 @@ class Program
         JsonNode bookNode = contentNode!["book"]!;
         JsonNode chapterNode = contentNode!["chapter"]!;
         JsonNode numberNode = contentNode!["number"]!;
-        
+
         Console.WriteLine(bookNode + " " + chapterNode + ":" + numberNode);
         Console.WriteLine("\n" + verseNode);
         Console.WriteLine("\ndone.");
